@@ -43,8 +43,6 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
 }
 
-/* Disable AOS delay on mobile*/
-
 @media screen and (max-width: 768px) {
   [data-aos-delay] {
     transition-delay: 0 !important;
@@ -215,7 +213,6 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-/* Mobile Navigation */
 .mobile-nav-toggle {
   position: fixed;
   right: 15px;
@@ -762,6 +759,10 @@ section {
 
 .app-list ul li {
   padding-bottom: 16px;
+}
+
+.author{
+  /* ZHGZYANG */
 }
 
 .app-list ul i {
