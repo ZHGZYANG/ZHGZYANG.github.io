@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <title>ITongue</title>
+    <meta content="" name="descriptison">
+    <meta content="" name="keywords">
+	<meta content="ZHGZYANG" name="author">
+    <link href="assets/img/logo.png" rel="icon">
+    <link href="assets/img/logo.png" rel="apple-touch-icon">
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+          rel="stylesheet">
+
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
+    <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+
+    <link href="assets/css/style.min.css" rel="stylesheet">
+</head>
+
+<body>
+<header id="header" class="fixed-top">
+    <div class="container d-flex">
+
+        <div class="logo mr-auto">
+            <h1 class="text-light"><a href="index.html"><span>iTongue</span></a></h1>
+        </div>
+<!--
+        <nav class="nav-menu d-none d-lg-block">
+            <ul>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#team">Team</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+-->
+    </div>
+</header>
+
+<section id="hero">
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center"
+                 data-aos="fade-up">
+                <div>
+                    <h1>iTongue Tongue Diagnostic System</h1>
+                    <!-- <h2>INTRO</h2> -->
+                </div>
+            </div>
+            <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="fade-left">
+                <img src="assets/img/logo.png" class="img-fluid" alt="">
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<main id="main">
+    <section id="about" class="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6" data-aos="zoom-in">
+                    <img src="assets/img/about.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="col-lg-6 d-flex flex-column justify-contents-center" data-aos="fade-left">
+                    <div class="content pt-4 pt-lg-0">
+                        <h3>Open Source Data List</h3>
+                        <ul class="font-italic">
+  <li><a href="https://huggingface.co/datasets/Jiahao123/TCM-tongue-nosplit">1070 images: TCM-tongue-nosplit</a></li>
+  <li><a href="https://huggingface.co/datasets/e1010101/tongue-images-384">1066 images: tongue-images-384</a></li>
+  <li><a href="https://huggingface.co/datasets/e1010101/tongue-images-384-augmented">5220 images: tongue-images-384-augmented</a></li>
+  <li><a href="https://aistudio.baidu.com/datasetdetail/196398">Aistudio dataset</a></li>
+  <li><a href="https://gitcode.com/open-source-toolkit/7542e/?utm_source=tools_gitcode&index=top&type=card&webUrl&isLogin=1">2000 images: GitCode Tongue Dataset</a></li>
+  <li><a href="https://ieee-dataport.org/documents/tongeimagedataset?utm_source=chatgpt.com#files">IEEE Tongue Image Dataset</a></li>
+
+                        </ul>
+                   </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact section-bg">
+        <div class="container">
+
+            <div class="section-title" data-aos="fade-up">
+                <h2>Contact Us</h2>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-12 mt-5 mt-lg-0 d-flex align-items-stretch" data-aos="fade-right">
+                    <div class="info">
+                        <div class="email">
+                            <i class="icofont-envelope"></i>
+                            <h4>Email:</h4>
+                            <p>jiachengmizzou@gmail.com</p>
+                        </div>
+                    </div>
+                </div>
+<!--
+                <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch" data-aos="fade-left">
+                    <form action="contact.php" method="post" role="form" class="email-form">
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <label for="name">Your Name</label>
+                                <input type="text" name="name" class="form-control" id="name" data-rule="minlen:4"
+                                       data-msg="Please enter at least 4 chars"/>
+                                <div class="validate"></div>
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="name">Your Email</label>
+                                <input type="email" class="form-control" name="email" id="email" data-rule="email"
+                                       data-msg="Please enter a valid email"/>
+                                <div class="validate"></div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="name">Subject</label>
+                            <input type="text" class="form-control" name="subject" id="subject" data-rule="minlen:4"
+                                   data-msg="Please enter at least 8 chars of subject"/>
+                            <div class="validate"></div>
+                        </div>
+                        <div class="form-group">
+                            <label for="name">Message</label>
+                            <textarea class="form-control" name="message" rows="10" data-rule="required"
+                                      data-msg="Please write something for us"></textarea>
+                            <div class="validate"></div>
+                        </div>
+                        <div class="mb-3">
+                            <div class="loading">Loading</div>
+                            <div class="error-message"></div>
+                            <div class="sent-message">Your message has been sent. Thank you!</div>
+                        </div>
+                        <div class="text-center">
+                            <button type="submit">Send Message</button>
+                        </div>
+                    </form>
+                </div>
+-->
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer id="footer">
+<!--    <div class="footer-top">-->
+<!--        <div class="container">-->
+<!--            <div class="row">-->
+
+<!--                <div class="col-lg-3 col-md-6">-->
+<!--                    <div class="footer-info">-->
+<!--                        <h3>ITongue</h3>-->
+<!--                        <p>-->
+<!--                            <strong>Email:</strong> info@example.com<br>-->
+<!--                        </p>-->
+<!--                    </div>-->
+<!--                </div>-->
+
+<!--                <div class="col-lg-2 col-md-6 footer-links">-->
+<!--                    <h4>Useful Links</h4>-->
+<!--                    <ul>-->
+<!--                        <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>-->
+<!--                        <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>-->
+<!--                        <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>-->
+<!--                        <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>-->
+<!--                        <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>-->
+<!--                    </ul>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
+
+    <div class="container">
+        <div class="copyright">Copyright &copy; ITongue All rights reserved.</div>
+        <div class="credits"></div>
+    </div>
+</footer>
+
+<a href="#" class="back-to-top"><i class="bx bxs-up-arrow-alt"></i></a>
+
+<script src="assets/vendor/jquery/jquery.min.js"></script>
+<script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+<script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+<script src="assets/vendor/venobox/venobox.min.js"></script>
+<script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+<script src="assets/vendor/aos/aos.js"></script>
+
+<script src="assets/js/main.min.js"></script>
+
+</body>
+</html>
